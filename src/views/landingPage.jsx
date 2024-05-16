@@ -1,4 +1,4 @@
-"bootstrap/dist/css/bootstrap.min.css";
+import { BrowserRouter } from 'react-router-dom';
 import React from "react";
 import { Button, Container, Row } from "react-bootstrap";
 import Header from "../components/header";
