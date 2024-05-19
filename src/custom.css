@@ -20,8 +20,7 @@ html {
 }
 
 ::-webkit-scrollbar {
-  width: 30px;
-  background-color: red;
+  width: 3px;
 }
 li {
   list-style: none;
@@ -301,25 +300,23 @@ a {
   color: #09090a;
 }
 
-@media (min-width: 768px) and (max-width: 1280px) {
+@media (min-width: 768px) and (max-width: 1330px) {
   .mt-0 {
     margin-bottom: 10%;
   }
- 
-  .mb-8{
+  .nav-link-with-margin {
+    margin-bottom: 10px; 
+}
+  
+  .btnn button {
     margin-bottom: 20px;
-  }
-  .pd-8{
-    padding: 10px;
-    margin: 10px;
-  }
-  .btnn{
-    width: 100% ;
-    text-align: center;
-    margin: 10px;
+    width: 100%;
+}
 
-
-  }
+.btnn button:last-child {
+    margin-bottom: 0;
+}
+ 
   
   .heroImg {
     margin-top: 30%;
@@ -334,34 +331,6 @@ a {
   --bs-bg-opacity: 0.1;
 }
 
-.playful-text {
-  font-family: "Playfair Display", serif;
-}
-
-.anchor {
-  text-decoration: none;
-  font-size: 14px;
-  color: #1B1B1B;
-}
-
-.anchor:hover {
-  color: #0000ff;
-  text-decoration: underline;
-  cursor: pointer;
-}
-
-.primary-anchor {
-  text-decoration: none;
-  font-size: 14px;
-  color: #1B1B1B;
-  width: fit-content;
-}
-
-.primary-anchor:hover {
-  color: #0000ff;
-  text-decoration: underline;
-  cursor: pointer;
-}
 
 .h3 {
   font-size: 16px;
@@ -370,8 +339,14 @@ a {
 }
 
 
-/* @media (max-width: 670px) {
-  .wrap {
+
+@media (max-width: 768px) {
+ 
+    .nav-link-with-margin {
+        margin-bottom: 20px; /* Adjust the value as needed */
+    }
+
+  /* .wrap {
     flex-direction: column;
   }
   .margin-left{
@@ -383,14 +358,23 @@ a {
   .form-control-lg,
   .btn-lg {
     width: 100%;
-  }
+  } */
 
-  .first-wrap {
+  /* .first-wrap {
     flex-direction: column;
     gap: none;
     justify-content: flex-start;
-  }
-} */
+  } */
+  .btnn button {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+/* Remove bottom margin from last button on smaller screens */
+.btnn button:last-child {
+    margin-bottom: 0;
+}
+}
 
 .container-foot {
   display: flex;
@@ -417,9 +401,7 @@ a {
   text-align: center;
 }
 
-.max-wid {
-  max-width: 150px;
-}
+
 
 @media (max-width: 768px) {
   .testimonial-container {
@@ -453,39 +435,10 @@ a {
     max-width: 300px;
   }
 
-  .team-carousel {
-    margin: 80px 0px;
-    padding: 0 30px;
-  }
-
-  .team-member img {
-    margin-top: 40px;
-    width: 500px;
-    height: 500px;
-    border-radius: 8px;
-    border: 2px solid #0000ff;
-  }
-  .team-img {
-    width: 20px;
-    height: 20px;
-  }
+ 
 }
 
-.slide {
-  padding: 20px;
-}
 
-.carousel-inner {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.carousel-item {
-  flex: 0 0 100%;
-}
-.op-icon {
-  font-size: 30px;
-}
 
 .password-left {
   border-right: none;

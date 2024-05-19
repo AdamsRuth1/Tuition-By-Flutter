@@ -83,7 +83,7 @@ export default function LandingPage() {
             </div>
           </motion.div>
         </Container>
-        <div className=" p-5 background-color">
+        <div className=" p-5 background-color" style={{marginTop: "156px"}}>
           <div className=" mb-5">
             <h1 className="text-color-blue secondary-fon background-color">
               Why Use <span className="text-color-red background-color">Tuition</span>{" "}
