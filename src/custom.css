@@ -1,3 +1,8 @@
+/* @font-face {
+  font-family: "Millik";
+  src: url(../fonts/Millik\ \(1\).ttf);
+} */
+
 
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
@@ -7,6 +12,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
+  background-color: white;
 }
 
 html {
@@ -341,7 +347,18 @@ a {
   text-decoration: underline;
   cursor: pointer;
 }
-
+.mb-8{
+  margin-bottom: 20px;
+}
+.pd-8{
+  padding: 10px;
+  margin: 10px;
+}
+.btnn{
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+}
 .h3 {
   font-size: 16px;
   font-weight: 700;
@@ -349,7 +366,7 @@ a {
 }
 
 
-@media (max-width: 670px) {
+/* @media (max-width: 670px) {
   .wrap {
     flex-direction: column;
   }
@@ -369,7 +386,7 @@ a {
     gap: none;
     justify-content: flex-start;
   }
-}
+} */
 
 .container-foot {
   display: flex;

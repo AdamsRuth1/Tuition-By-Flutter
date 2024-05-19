@@ -16,30 +16,32 @@ function Header() {
     <Navbar.Brand href="#home">
       <img src={logo} height="40" alt="Your Logo" />
     </Navbar.Brand>
+   
     <Navbar.Toggle aria-controls="main-nav" />
     <Navbar.Collapse id="main-nav">
-      <Nav className="me-auto">
-        <Nav.Link href="#home" className="me-5 text-color">
+      <Nav className="me-auto primary-text-color ">
+        <Nav.Link href="#home" className="me-5 primary-text-color pd-8">
           Home
         </Nav.Link>
-        <Nav.Link href="#features" className="me-5 text-dark">
+        
+        <Nav.Link href="#pricing" className="me-5 primary-text-color pd-8">
           Blog
         </Nav.Link>
-        <Nav.Link href="#pricing" className="me-5 text-dark">
+        <Nav.Link href="#pricing" className="me-5 primary-text-color pd-8">
           Developer
         </Nav.Link>
-        <Nav.Link href="#support" className="me-5 text-dark">
+        <Nav.Link href="#support" className="me-5 primary-text-color pd-8">
           Support
         </Nav.Link>
       </Nav>
-      <Nav>
+      <Nav className="">
         <button
           type="button"
-          className="btn outline-primary me-4 custom-outline-primary"
+          className="btn outline-primary me-4 custom-outline-primary mb-8 btnn"
         >
           Download App
-        </button>{" "}
-        <Button className="sign-in">Sign in</Button>{" "}
+        </button>
+        <Button className="sign-in btnn">Sign in</Button>
       </Nav>
     </Navbar.Collapse>
   </Container>

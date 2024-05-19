@@ -6,7 +6,7 @@ import heroImage from "../assets/Hero Images.png"; // Adjust the path as needed
 // import { Helmet } from "react-helmet-async";
 import { motion } from "framer-motion";
 import { BsStarFill, BsStarHalf } from "react-icons/bs";
-// import Illustration1 from "../assets/Illustrations for why cards (1).png";
+import Illustration1 from "../assets/Illustrations for why cards (1).png";
 import Illustration2 from "../assets/Illustrations for why cards (2).png";
 import Illustration3 from "../assets/Illustrations for why cards.png";
 import undraw1 from "../assets/undraw_safe_re_kiil 1.png";
