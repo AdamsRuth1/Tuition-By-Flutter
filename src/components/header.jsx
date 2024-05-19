@@ -20,28 +20,28 @@ function Header() {
     <Navbar.Toggle aria-controls="main-nav" />
     <Navbar.Collapse id="main-nav">
       <Nav className="me-auto primary-text-color ">
-        <Nav.Link href="#home" className="me-5 primary-text-color pd-8">
+        <Nav.Link href="#home" className="me-5 primary-text-color">
           Home
         </Nav.Link>
         
-        <Nav.Link href="#pricing" className="me-5 primary-text-color pd-8">
+        <Nav.Link href="#pricing" className="me-5 primary-text-color ">
           Blog
         </Nav.Link>
-        <Nav.Link href="#pricing" className="me-5 primary-text-color pd-8">
+        <Nav.Link href="#pricing" className="me-5 primary-text-color ">
           Developer
         </Nav.Link>
-        <Nav.Link href="#support" className="me-5 primary-text-color pd-8">
+        <Nav.Link href="#support" className="me-5 primary-text-color ">
           Support
         </Nav.Link>
       </Nav>
       <Nav className="">
         <button
-          type="button"
-          className="btn outline-primary me-4 custom-outline-primary mb-8 btnn"
+          type="button btn"
+          className="btn outline-primary me-4 custom-outline-primary btnn "
         >
           Download App
         </button>
-        <Button className="sign-in btnn">Sign in</Button>
+        <Button className="sign-in btnn ">Sign in</Button>
       </Nav>
     </Navbar.Collapse>
   </Container>

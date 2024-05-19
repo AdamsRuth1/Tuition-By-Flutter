@@ -37,10 +37,11 @@ export default function LandingPage() {
         <title>Your Page Title</title>
         {/* Add other meta tags, etc. */}
       {/* </Helmet> */}
-      <div>
+      <div className='header-bg'>
         <Header />
 
-        <Container style={{ marginTop: "9%" }}>
+        <Container style={{ marginTop: "9%" }}
+        >
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -48,7 +49,7 @@ export default function LandingPage() {
             className="row"
           >
             <div
-              className="col-md-6 mb-4 mb-md-0 background"
+              className="col-md-6 mb-4 mb-md-0 "
               style={{ marginTop: "70px", textAlign: "left" }}
             >
               <h1 className="text-color-blue secondary-font header-fs">
@@ -76,7 +77,7 @@ export default function LandingPage() {
               <img
                 src={heroImage}
                 alt="Header Image"
-                className="img-fluid background"
+                className="img-fluid  mt"
                 style={{ maxWidth: "100%", height: "auto" }}
               />
             </div>
@@ -84,23 +85,23 @@ export default function LandingPage() {
         </Container>
         <div className=" p-5 background-color">
           <div className=" mb-5">
-            <h1 className="text-color-blue secondary-font">
-              Why Use <span className="text-color-red">Tuition</span>{" "}
+            <h1 className="text-color-blue secondary-fon background-color">
+              Why Use <span className="text-color-red background-color">Tuition</span>{" "}
             </h1>
           </div>
           <div className="row">
             <div className="col-md-3">
-              <div className="text-center" style={{ padding: "24px" }}>
+              <div className="text-center background-color" style={{ padding: "24px" }}>
                 <img
                   whileHover={{ scale: 1.1 }}
                   src={undraw1}
                   alt="Illustration 1"
-                  className="img-fluid mt-4 mt-lg-0"
+                  className="img-fluid mt-4 mt-lg-0 background-color"
                   style={{ maxWidth: "100%", height: "auto" }}
                 />
                 <h6
                   style={{ marginTop: "24px" }}
-                  className="text-color-blue fw-bold"
+                  className="text-color-blue fw-bold background-color"
                 >
                   Fast and secure payments
                 </h6>
@@ -179,7 +180,7 @@ export default function LandingPage() {
           </div>
         </div>
 
-        <div className="my-5 p-5 ">
+        <div className="my-5 p-5 header-bg">
           <div className="text-center mb-5">
             <h1 className="text-color-blue secondary-font">
               Over 10k + tuition paid
