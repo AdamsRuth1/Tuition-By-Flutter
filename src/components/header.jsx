@@ -8,7 +8,7 @@ import logo from '../assets/Logo Extended.png';
 function Header() {
     return (
         <>
-            <Navbar className="header-bg" data-bs-theme="light" expand="lg" fixed="top">
+            <Navbar className="header-bg " data-bs-theme="light" expand="lg" fixed="top">
                 <Container className="header justify-content-between">
                     <Navbar.Brand href="#home">
                         <img src={logo} height="40" alt="Your Logo" />
