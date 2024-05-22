@@ -109,9 +109,9 @@ input:focus {
   }
 }
 
-a {
+.a {
   text-decoration: none;
-  color: #0000ff;
+  color: #51575D;
 }
 
 .secondary-font {
@@ -122,17 +122,6 @@ a {
   font-family: "Roboto", sans-serif;
 }
 
-.primary-color {
-  color: #0000ff;
-}
-
-.primary-text-color {
-  color: #1e1e1e;
-}
-
-.secondary-text-color {
-  color: #474747;
-}
 
 .white-color {
   color: white;

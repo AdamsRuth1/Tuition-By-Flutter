@@ -22,6 +22,7 @@ import Usetuition from "./useTuition";
 import Explore from "./explore";
 import SafteySecurity from "./security";
 import Faq from "./faqs"
+import Footer from "../components/footer";
  function LandingPage() {
   return (
     <>
@@ -270,6 +271,7 @@ import Faq from "./faqs"
             style={{ maxWidth: "100%", height: "auto" }}
           />
         </motion.image>
+        <Footer />
       </div>
     </>
   );
