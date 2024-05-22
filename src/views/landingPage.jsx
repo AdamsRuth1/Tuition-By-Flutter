@@ -258,8 +258,9 @@ import Faq from "./faqs"
         </div>
         {/* End of steps to process payment */}
         {/* safty and security guaranteed */}
+        <Faq />
        <SafteySecurity />
-      <Faq />
+      
     
         <motion.image>
           <img
