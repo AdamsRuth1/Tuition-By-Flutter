@@ -5,7 +5,7 @@ export default function Faq() {
   return (
     <MDBContainer className="mt-5 no-left-border" style={{Width: '100%', marginLeft:"10px", }}>
       <MDBAccordion alwaysOpen >
-        <MDBAccordionItem collapseId={} headerTitle="What are the fees for using tuition?">
+        <MDBAccordionItem collapseId={1} headerTitle="What are the fees for using tuition?">
         Lorem ipsum dolor sit amet consectetur. Pulvinar laoreet turpis sit sit tincidunt nisi quis magnis.
         </MDBAccordionItem>
         <MDBAccordionItem collapseId={2} headerTitle="How can i be sure my school has received the payment?">
