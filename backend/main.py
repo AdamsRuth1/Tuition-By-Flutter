@@ -1,5 +1,9 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from backend.routers import users
+from backend.database import engine, Base
+
+Base.metadata.create_all(bind=engine)
 
 
 app = FastAPI()
@@ -16,6 +20,9 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+
+app.include_router(users.router, prefix="/api", tags=["users"])
 
 
 @app.get("/")
