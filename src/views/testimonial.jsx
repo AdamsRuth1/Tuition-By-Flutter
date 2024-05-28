@@ -1,7 +1,7 @@
 // import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BsStarFill } from "react-icons/bs";
-import Avatar from "../assets/Avatars.png";
+import Avatar from "../assets/images/Avatars.png";
 import { Button, Container, Row } from "react-bootstrap";
 
 
