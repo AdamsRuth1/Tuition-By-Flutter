@@ -2,7 +2,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./custom.css";
 import LandingPage from "./views/landingPage.jsx";
-import Signup from "./views/Signin.jsx";
+import SignIn from "./views/Signin.jsx";
+import SignUp from "./views/SignUp.jsx"
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<LandingPage />} />
-          <Route path="/signin" element={<Signup />} />
+          <Route path="/signin" element={<SignIn />} />
+          <Route path="/signup" element={<SignUp />} />
         </Routes>
       </Router>
     </>

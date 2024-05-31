@@ -15,7 +15,7 @@ const FormSides = () => {
           style={{
             width: "240px",
             height: "144px",
-            paddingTop: "2.5rem",
+            paddingTop: "2.6rem",
             fontWeight: "400",
             fontSize: "2.375rem",
             lineHeight: "3rem",

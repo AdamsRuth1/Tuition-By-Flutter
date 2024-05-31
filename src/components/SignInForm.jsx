@@ -12,7 +12,7 @@ const SignInForm = () => {
           style={{ width: "480px", height: "48px" }}
         />
       </div>
-      <div className='pb-4'>
+      <div className='pb-2'>
         <label>Password</label> <br />
         <input
           type="password"

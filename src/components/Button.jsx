@@ -3,7 +3,7 @@ import React from "react";
 const Button = ({ disable, handleClick, text }) => {
   return (
     <>
-      <div>
+      <div className="pt-4">
         <button
           disabled={disable}
           onClick={handleClick}
@@ -16,11 +16,14 @@ const Button = ({ disable, handleClick, text }) => {
             fontWeight: "400",
             fontSize: "18px",
             lineHeight: "22px",
+            // paddingTop: "2rem"
           }}
         >
-        {text}
+          {text}
         </button>
       </div>
+
+     
     </>
   );
 };

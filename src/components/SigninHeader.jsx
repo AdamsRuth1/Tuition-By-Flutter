@@ -20,8 +20,9 @@ const SigninHeader = ({ header, Paragraph }) => {
         style={{
           fontSize: "1rem",
           lineHeight: "1rem",
-          fontWeight: "400",
+          fontWeight: "500",
           color: "#606569",
+          width: "354px"
         }}
       >
         {Paragraph}
