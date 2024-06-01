@@ -3,7 +3,7 @@ import {Link} from "react-router-dom"
 const ButtonBotton = ({ text, navigate, to, footerText,className }) => {
   return (
     <>
-      <div className="text-center pt-3" style={{ paddingBottom: "2.5rem" }}>
+      <div className="text-center pt-3" style={{ paddingBottom: "1.9rem" }}>
         <p
           style={{
             fontWeight: "400",

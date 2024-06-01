@@ -23,18 +23,20 @@ const Signin = () => {
           // HandleGoogleSignIn={}
           />
           <SignInForm />
-          <Link
-            to="/forgotpassword"
+          <p
+          
             style={{
               fontWeight: "400",
               fontSize: "1rem",
               lineHeight: "1rem",
               color: "#606569",
-              paddingBottom: "2rem",
+              // paddingBottom: "2rem",
+              paddingTop: "1rem"
+              
             }}
           >
             Forget password?
-          </Link>
+          </p>
           <Button text="Sign In" />
           <ButtonBotton
             text="Don’t have an account? "

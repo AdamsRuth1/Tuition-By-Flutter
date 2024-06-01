@@ -1,12 +1,12 @@
 import React from "react";
 
-const Button = ({ disable, handleClick, text }) => {
+const Button = ({ disable, handleSubmit, text }) => {
   return (
     <>
       <div className="pt-4">
         <button
           disabled={disable}
-          onClick={handleClick}
+          onClick={handleSubmit}
           className=""
           style={{
             width: "480px",
@@ -16,7 +16,7 @@ const Button = ({ disable, handleClick, text }) => {
             fontWeight: "400",
             fontSize: "18px",
             lineHeight: "22px",
-            // paddingTop: "2rem"
+            
           }}
         >
           {text}

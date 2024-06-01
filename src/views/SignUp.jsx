@@ -4,8 +4,10 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import FormSides from "../components/FormSides";
 import SignupForm from "../components/SignupForm";
-import Button from "../components/Button";
+
 import ButtonBotton from "../components/ButtonBotton";
+// import SignupData from "../constants/signupData.jsx";
+
 const Signup = () => {
   const className = "signup-footer";
   return (
@@ -17,8 +19,8 @@ const Signup = () => {
               header="Get Started"
               Paragraph="Over 1,000 users are already using Tuition to pay their fees abroad - join the easy way to pay!"
             />
+
             <SignupForm />
-            <Button text="Sign Up" />
             <ButtonBotton
               text="Already have an account? "
               navigate="Sign In"
