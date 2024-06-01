@@ -22,6 +22,7 @@ html {
 ::-webkit-scrollbar {
   width: 3px;
 }
+
 li {
   list-style: none;
 }
@@ -35,28 +36,34 @@ input:focus {
   outline: none;
   box-shadow: none;
 }
-.background{
+
+.background {
   background-image: url(./assets/Map\ background.png);
   background-size: cover;
-  background-position:right ;
+  background-position: right;
   min-height: 100vh;
 
 }
-.background-color{
+
+.background-color {
   background-color: #f8fafd;
 
 }
-.header-bg{
+
+.header-bg {
   background-color: #FFFFFF;
 }
-.fs{
+
+.fs {
   font-size: 20px;
   line-height: 32px;
 }
-.header-fs{
+
+.header-fs {
   font-size: 38px;
   line-height: 48px;
 }
+
 /* testimonial animation */
 .testimonial-section {
   overflow: hidden;
@@ -66,16 +73,18 @@ input:focus {
 
 .testimonial-row {
   display: flex;
-  animation-duration: 20s; /* Total animation duration */
+  animation-duration: 20s;
+  /* Total animation duration */
   animation-timing-function: linear;
   animation-iteration-count: infinite;
   justify-content: space-between;
   margin-bottom: 100px;
-   
+
 }
 
 .testimonial {
-  flex: 0 0 35%; /* Each column takes up 25% of the width */
+  flex: 0 0 35%;
+  /* Each column takes up 25% of the width */
   background-color: white;
   padding: 15px;
   margin-left: 30px;
@@ -88,10 +97,11 @@ input:focus {
 
 @keyframes testimonialAnimationTop {
   0% {
-      transform: translateX(100%);
+    transform: translateX(100%);
   }
+
   100% {
-      transform: translateX(-100%);
+    transform: translateX(-100%);
   }
 }
 
@@ -102,10 +112,11 @@ input:focus {
 
 @keyframes testimonialAnimationBottom {
   0% {
-      transform: translateX(-100%);
+    transform: translateX(-100%);
   }
+
   100% {
-      transform: translateX(100%);
+    transform: translateX(100%);
   }
 }
 
@@ -126,14 +137,17 @@ input:focus {
 .white-color {
   color: white;
 }
-.mr-2{
+
+.mr-2 {
   margin-left: -24px;
 
 }
+
 .custom-shadow {
   box-shadow: 0 4px 8px rgba(0.1, 0.1, 0.1, 0.1);
   border: none;
 }
+
 .btn-primary {
   --bs-btn-focus-shadow-rgb: 49, 132, 253;
   --bs-btn-active-color: #fff;
@@ -141,6 +155,7 @@ input:focus {
   --bs-btn-active-border-color: transparent;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
 }
+
 .primary-btn {
   background-color: #0000ff;
   border: 1px solid #0000ff;
@@ -273,6 +288,7 @@ input:focus {
 .carousel-control-prev-icon {
   display: none;
 }
+
 .carousel-control-next-icon {
   display: none;
 }
@@ -293,29 +309,32 @@ input:focus {
   .mt-0 {
     margin-bottom: 10%;
   }
+
   .nav-link-with-margin {
-    margin-bottom: 10px; 
-}
-  
+    margin-bottom: 10px;
+  }
+
   .btnn button {
     margin-bottom: 20px;
     width: 100%;
-}
+  }
 
-.btnn button:last-child {
+  .btnn button:last-child {
     margin-bottom: 0;
-}
- 
-  
+  }
+
+
   .heroImg {
     margin-top: 30%;
     /* width: 100%; */
   }
 }
-.pl-md-0{
+
+.pl-md-0 {
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
+
 .bg-secondary {
   --bs-bg-opacity: 0.1;
 }
@@ -330,10 +349,11 @@ input:focus {
 
 
 @media (max-width: 768px) {
- 
-    .nav-link-with-margin {
-        margin-bottom: 20px; /* Adjust the value as needed */
-    }
+
+  .nav-link-with-margin {
+    margin-bottom: 20px;
+    /* Adjust the value as needed */
+  }
 
   /* .wrap {
     flex-direction: column;
@@ -357,12 +377,12 @@ input:focus {
   .btnn button {
     margin-bottom: 20px;
     width: 100%;
-}
+  }
 
-/* Remove bottom margin from last button on smaller screens */
-.btnn button:last-child {
+  /* Remove bottom margin from last button on smaller screens */
+  .btnn button:last-child {
     margin-bottom: 0;
-}
+  }
 }
 
 .container-foot {
@@ -401,17 +421,20 @@ input:focus {
     margin: 80px 20px;
     padding: 0 20px;
   }
+
   .container-foot {
     flex-direction: column;
     text-align: center;
   }
 
-  .container-foot > div {
+  .container-foot>div {
     margin-bottom: 20px;
   }
-.pd-0{
-  padding: 0;
-}
+
+  .pd-0 {
+    padding: 0;
+  }
+
   .mar-top {
     margin-top: 20px;
   }
@@ -424,7 +447,7 @@ input:focus {
     max-width: 300px;
   }
 
- 
+
 }
 
 
@@ -447,45 +470,95 @@ input:focus {
   border-radius: 8px;
   border-left: none;
 }
-.secondary-font {
-    font-family: "Playfair Display", serif;
-  }
-  
-  .primary-font {
-    font-family: "Roboto", sans-serif;
-  }
-  .btn-1{
-    background-color:#252E6A ;
-    color: white;
-  }
-  .btn-outline{
-    border: 2px solid #252E6A;
-    border-radius: 8px;
-  }
-  .text-color-blue{
-    color: #0A0E27;
-  }
-  .text-color-red{
-color: #CA3131;
-  }
-  .mt-top{
-    margin-top: 142px;
-    margin-bottom: 306px;
-  }
- 
-  .outline-primary {
-   /* border-color: #252E6A; */
-   border-radius: 7px;
-   color: #252E6A;
-   border: 2px solid #252E6A;
 
-  }
-  .sign-in{
-    color: white;
-    background-color: #252E6A;
-    border-radius: 7px;
-    border: none;
-  }
-  .mt-n1{
-    margin-top: 10%;
-  }
+.secondary-font {
+  font-family: "Playfair Display", serif;
+}
+
+.primary-font {
+  font-family: "Roboto", sans-serif;
+}
+
+.btn-1 {
+  background-color: #252E6A;
+  color: white;
+}
+
+.btn-outline {
+  border: 2px solid #252E6A;
+  border-radius: 8px;
+}
+
+.text-color-blue {
+  color: #0A0E27;
+}
+
+.text-color-red {
+  color: #CA3131;
+}
+
+.mt-top {
+  margin-top: 142px;
+  margin-bottom: 306px;
+}
+
+.outline-primary {
+  /* border-color: #252E6A; */
+  border-radius: 7px;
+  color: #252E6A;
+  border: 2px solid #252E6A;
+
+}
+
+.sign-in {
+  color: white;
+  background-color: #252E6A;
+  border-radius: 7px;
+  border: none;
+}
+
+.mt-n1 {
+  margin-top: 10%;
+}
+
+/* signIn styles */
+.Google-border {
+  border: 1px solid #CCCCCC;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  color: #A1A4A8;
+
+}
+
+.select {
+  border: 1px solid #CCCCCC;
+}
+
+.line{
+  border: 1px solid #EAEAEA;
+/* padding-right: 3px; */
+}
+
+.input-style {
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+  padding: 20px;
+  gap: 10px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #A1A4A8;
+}
+
+label {
+  color: #0A0E27;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  padding-bottom: 0.5rem;
+}
+
+.signup-footer {
+  padding-top: 3.3rem;
+}

@@ -1,22 +1,22 @@
 import React from "react";
 import { Button, Container, Row } from "react-bootstrap";
 import Header from "../components/header";
-import heroImage from "../assets/Hero Images.png"; // Adjust the path as needed
+import heroImage from "../assets/images/Hero Images.png"; // Adjust the path as needed
 // import { Helmet } from "react-helmet-async";
 import { motion } from "framer-motion";
-import harvardLogo from "../assets/harvard_university_logo.svg.png";
-import udemyLogo from "../assets/udemy_logo.svg.png";
-import cambridgeLogo from "../assets/cambridge_university_press__assessment_logo.png.png";
-import Standford from "../assets/Group.png";
-import Coursera from "../assets/coursera_logo.svg (1).png";
-import Altschool from "../assets/altcareer_logo.png.png";
-import Ielts from "../assets/ielts_online_tests_logo.svg.png";
-import CityLogo from "../assets/the_city_university_of_new_york_logo.svg.png";
-import Step1 from "../assets/Number1 container.png";
-import Step2 from "../assets/Number container2.png";
-import Step3 from "../assets/Number container (1).png"; 
-import Step4 from "../assets/Number container (2).png";
-import Download from "../assets/Download mobile app section.png";
+import harvardLogo from "../assets/images/harvard_university_logo.svg.png";
+import udemyLogo from "../assets/images/udemy_logo.svg.png";
+import cambridgeLogo from "../assets/images/cambridge_university_press__assessment_logo.png.png";
+import Standford from "../assets/images/Group.png";
+import Coursera from "../assets/images/coursera_logo.svg (1).png";
+import Altschool from "../assets/images/altcareer_logo.png.png";
+import Ielts from "../assets/images/ielts_online_tests_logo.svg.png";
+import CityLogo from "../assets/images/the_city_university_of_new_york_logo.svg.png";
+import Step1 from "../assets/images/Number1 container.png";
+import Step2 from "../assets/images/Number container2.png";
+import Step3 from "../assets/images/Number container (1).png";
+import Step4 from "../assets/images/Number container (2).png";
+import Download from "../assets/images/Download mobile app section.png";
 import Testimonial from "./testimonial";
 import Usetuition from "./useTuition";
 import Explore from "./explore";
@@ -278,3 +278,6 @@ import Footer from "../components/footer";
 }
 
 export default LandingPage;
+
+
+
