@@ -13,10 +13,12 @@ from openai import OpenAI
 from dotenv import load_dotenv
 
 load_dotenv()
-openai.api_key = os.getenv("OPENAI_API_KEY")
-
+api_key = os.getenv("OPENAI_API_KEY")
+if api_key is None:
+    raise ValueError("No OPENAI_API_KEY found in environment variables")
 
 client = OpenAI(api_key=api_key)
+
 
 router = APIRouter()
 
