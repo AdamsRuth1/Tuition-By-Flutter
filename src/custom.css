@@ -535,9 +535,9 @@ input:focus {
   border: 1px solid #CCCCCC;
 }
 
-.line{
+.line {
   border: 1px solid #EAEAEA;
-/* padding-right: 3px; */
+  /* padding-right: 3px; */
 }
 
 .input-style {
@@ -561,4 +561,18 @@ label {
 
 .signup-footer {
   padding-top: 3.3rem;
+}
+
+.eyeIcon {
+  display: flex;
+  position: absolute;
+  margin-left: 31%;
+  margin-top: -33px;
+
+  /* padding-bottom: -2rem;
+  padding-bottom: 3rem;
+  cursor: pointer;
+    padding-left: 27rem;
+    position: relative;
+    top: -2.3rem; */
 }

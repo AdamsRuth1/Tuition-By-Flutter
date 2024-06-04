@@ -1,4 +1,4 @@
-import "bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap/dist/css/bootstrap.min.css";
 import { motion } from "framer-motion";
 import Illustration1 from "../assets/images/Illustrations for why cards (1).png";
 import Illustration2 from "../assets/images/Illustrations for why cards (2).png";
