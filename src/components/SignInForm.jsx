@@ -2,11 +2,10 @@ import { useState } from "react";
 import eyeOpen from "../assets/Icons/eyeOpen.svg";
 import eyeClose from "../assets/Icons/eyeClose.svg";
 const SignInForm = () => {
-
   const [showpassword, setShowPassword] = useState(false);
   const handlePasswordVisibility = () => {
-    setShowPassword(!showpassword)
-  }
+    setShowPassword(!showpassword);
+  };
   return (
     <div className="">
       <div className="pb-4">
@@ -19,7 +18,7 @@ const SignInForm = () => {
         />
       </div>
 
-      <div  className="">
+      <div className="">
         <label>Password</label> <br />
         <input
           type={showpassword ? "text" : "password"}
@@ -28,17 +27,15 @@ const SignInForm = () => {
           placeholder="Enter email here"
           // onChange={handleChange}
           className={`input-style`}
-          style={{ width: "480px", height: "48px"}}
+          style={{ width: "480px", height: "48px" }}
         />
-        
         <span
-          className=""
+          className="eyeIcon"
           style={{
-            bottom: "0.5rem",
-            left: "35rem",
-
+            // bottom: "0.5rem",
+            // left: "35rem",
             cursor: "pointer",
-            position: "absolute",
+            // position: "absolute",
           }}
           onClick={handlePasswordVisibility}
         >
@@ -49,19 +46,8 @@ const SignInForm = () => {
           )}
         </span>
       </div>
-      {/* <div className='pb-2'>
-        <label>Password</label> <br />
-        <input
-          type="password"
-          placeholder="Enter email here"
-          className="input-style"
-          style={{ width: "480px", height: "48px" }}
-        />
-
-
-      </div> */}
     </div>
   );
-}
+};
 
-export default SignInForm
+export default SignInForm;

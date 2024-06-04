@@ -1,4 +1,4 @@
-import "bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap/dist/css/bootstrap.min.css";
 import Mock1 from "../assets/images/Mockup & Blob 1.png";
 import Mock2 from "../assets/images/Mockup & Blob 2.png";
 import Mock3 from "../assets/images/Mockup and Blob 3.png";

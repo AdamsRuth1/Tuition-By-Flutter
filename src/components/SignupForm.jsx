@@ -132,7 +132,7 @@ const SignupForm = () => {
             />
           </div>
         </div>
-        <div style={{}} className="">
+        <div style={{  }} className="">
           <label>Password</label> <br />
           <input
             type={showpassword ? "text" : "password"}
@@ -143,20 +143,11 @@ const SignupForm = () => {
             className={`input-style ${
               errorMessage.password ? "border-danger" : ""
             }`}
-            style={{ width: "480px", height: "48px" }}
+            style={{ width: "480px", height: "48px",  }}
           />
-          <p className="text-danger" style={{ fontSize: "14px" }}>
-            {errorMessage.password}
-          </p>
           <span
-            className=""
-            style={{
-              bottom: "7.6rem",
-              left: "35rem",
-
-              cursor: "pointer",
-              position: "absolute",
-            }}
+            className="eyeIcon"
+            style={{}}
             onClick={handlePasswordVisibility}
           >
             {showpassword ? (
@@ -166,6 +157,10 @@ const SignupForm = () => {
             )}
           </span>
         </div>
+        <p className="text-danger" style={{ fontSize: "14px" }}>
+          {errorMessage.password}
+        </p>
+
 
         
         <div style={{ paddingBottom: "0.7rem" }}>
